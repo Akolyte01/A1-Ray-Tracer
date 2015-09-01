@@ -1,5 +1,7 @@
 # Assignment 1:  Distribution Ray Tracing 
 
+Test
+
 The code included in the assignment is a basic ray tracer, largely taken from the Typescript [samples](https://github.com/Microsoft/TypeScriptSamples) on github.com. It has been extended to render the frames incrementally (line by line) so that the frames are displayed as they are rendering, to allow the rendering resolution to be different than the canvas size, and to render multiple frames into a video with the Whammy client-side WebM video encoder (https://github.com/antimatter15/whammy).  The project creates a video like this:
 ![Video created with provided code](raytraced-movie.gif)
 
